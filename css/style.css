@@ -749,3 +749,29 @@ a {
     margin: 0 auto;
 
 }
+/* Feature */
+.feature {
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+.feature_heading {
+    margin: 1rem 0;
+}
+.feature__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 764px) {
+    .feature:nth-of-type(even) .feature__content {
+        order: 2;
+    }   
+}
+/* Block-feature */
+/* 
+.block-feature .grid{
+    gap: 2rem;
+} */
